@@ -1,0 +1,24 @@
+전역객체: Global
+
+Console 객체
+    console.log(): 콘솔에 로그 메시지 출력
+    console.time(label):시간 측정 시작
+    console.timeEnd(label):시간 측정 종료
+
+console.log('%d + %d = %d', 1, 2, 1+2);
+> 1 + 2 = 3
+
+console.time('time');
+console.timeEnd('time');
+> time: 0.172ms
+
+Utility 모듈
+보조적인 기능 중 유용한 기능만을 모아놓은 모듈
+var require('util')
+var data= util.format('%d','%s','%j',6,'chapter',{cotent:'module'})
+
+FileSystem 모듈
+
+Event 모듈
+
+Node에서의 상속
