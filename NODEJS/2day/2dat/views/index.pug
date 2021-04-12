@@ -1,0 +1,15 @@
+
+
+html 
+  head 
+    title=main
+  body 
+    h1 Hello #{title}!
+    //ul,unordered list
+    ul
+      -for(var i=0;i<5;i++)
+        li unordered list #(i+1)
+    ol 
+      -for(var i=1;i<5;i++)
+        li rdered list #{i+1}
+    
